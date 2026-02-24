@@ -1,16 +1,49 @@
-# React + Vite
+# 🦠 COVID Statistics Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive React-based dashboard that displays real-time COVID-19 statistics country-wise using a public API.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Project Overview
 
-## React Compiler
+The COVID Statistics Dashboard allows users to:
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- View global COVID statistics
+- Select a country from a dropdown
+- View country-specific data
+- Toggle between Card View and Table View
+- See real-time API data updates
+- Experience loading states for better UX
 
-## Expanding the ESLint configuration
+This project focuses on core React concepts including state management, side effects, conditional rendering, and dynamic UI updates.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🌐 API Used
+
+Data is fetched from:
+https://disease.sh/v3/covid-19/countries
+
+https://disease.sh/v3/covid-19/all
+## 🛠 Tech Stack
+
+- React (Functional Components)
+- Vite
+- Tailwind CSS
+- JavaScript (ES6+)
+- Fetch API
+
+---
+
+## 📚 Core React Concepts Used
+
+### 1️⃣ useState
+Used to manage:
+- Country list
+- Selected country
+- Country data
+- Global data
+- Loading state
+- View toggle (Card / Table)
+
+---
