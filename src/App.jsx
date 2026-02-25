@@ -5,7 +5,7 @@ import StatsTable from "./components/StatsTable";
 
 function App() {
   const [countries, setCountries] = useState([]);
-  const [selectedCountry, setSelectedCountry] = useState("India");
+  const [selectedCountry, setSelectedCountry] = useState("USA");
   const [countryData, setCountryData] = useState(null);
   const [globalData, setGlobalData] = useState(null);
   const [view, setView] = useState("card");
@@ -37,7 +37,7 @@ function App() {
   };
 
   fetchData();
-}, [selectedCountry]); // ✅ Safe
+}, [selectedCountry]); 
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-indigo-900 via-purple-900 to-black text-white p-6">
