@@ -1,49 +1,34 @@
-# 🦠 COVID Statistics Dashboard
+# 🦠 COVID-19 Stats Tracker
 
-A responsive React-based dashboard that displays real-time COVID-19 statistics country-wise using a public API.
-
----
-
-## 🚀 Project Overview
-
-The COVID Statistics Dashboard allows users to:
-
-- View global COVID statistics
-- Select a country from a dropdown
-- View country-specific data
-- Toggle between Card View and Table View
-- See real-time API data updates
-- Experience loading states for better UX
-
-This project focuses on core React concepts including state management, side effects, conditional rendering, and dynamic UI updates.
+A modern, responsive React dashboard that provides real-time tracking of COVID-19 statistics globally and by country.
 
 ---
 
-## 🌐 API Used
+## ✨ Key Features
 
-Data is fetched from:
-https://disease.sh/v3/covid-19/countries
+- **Global & Local Insights**: View worldwide statistics or drill down into specific countries using the searchable dropdown.
+- **Dynamic Views**: Easily toggle between detailed Table View and Summary Card View.
+- **Live Data**: Always up-to-date information fetched directly from reliable public APIs.
+- **Smooth UX**: Built-in loading states and responsive design for both desktop and mobile.
 
-https://disease.sh/v3/covid-19/all
-## 🛠 Tech Stack
+## 🛠️ Built With
 
-- React (Functional Components)
-- Vite
-- Tailwind CSS
-- JavaScript (ES6+)
-- Fetch API
+- **React & Vite**: Fast development and rendering.
+- **Tailwind CSS**: Utility-first styling for a sleek UI.
+- **Vanilla JavaScript**: Modern ES6+ syntax.
+- **Fetch API**: For reliable asynchronous data fetching.
 
----
+## 📡 APIs Used
 
-## 📚 Core React Concepts Used
+Data is powered by the [disease.sh API](https://disease.sh/):
+- `https://disease.sh/v3/covid-19/all` (Global stats)
+- `https://disease.sh/v3/covid-19/countries` (Country-specific stats)
 
-### 1️⃣ useState
-Used to manage:
-- Country list
-- Selected country
-- Country data
-- Global data
-- Loading state
-- View toggle (Card / Table)
+## 🚀 Getting Started
 
----
+To run this project locally:
+
+1. Clone the repository.
+2. Install dependencies by running `npm install`.
+3. Start the development server using `npm run dev`.
+4. Open your browser and navigate to the localhost URL provided in the terminal.
